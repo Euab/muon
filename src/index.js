@@ -4,18 +4,18 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { HashRouter as Router, Route } from 'react-router-dom'
+import { Provider } from 'react-redux'
 
-import Home from './App'
-import About from './components/About'
+import configureStore from './store/store'
+
+const store = configureStore()
 
 ReactDOM.render(
-  <Router>
-    <div>
-      <main>
-        <Route exact path="/" component={Home} />
-      </main>
-    </div>
-  </Router>,
+  <Provider store={store}>
+    <Router>
+      <App></App>
+    </Router>
+  </Provider>,
   document.getElementById('root')
 );
 
