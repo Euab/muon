@@ -1,0 +1,11 @@
+.seeker_container {
+  flex: 0 0 auto;
+  background-color: transparent;
+  height: 6px;
+  cursor: pointer;
+}
+
+.seeker_fill {
+  height: 6px;
+  background-color: /*#8742db*/ #8fbcbb;
+}
