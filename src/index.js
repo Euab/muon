@@ -3,11 +3,19 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { HashRouter as Router, Route } from 'react-router-dom'
+
+import Home from './App'
+import About from './components/About'
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <Router>
+    <div>
+      <main>
+        <Route exact path="/" component={Home} />
+      </main>
+    </div>
+  </Router>,
   document.getElementById('root')
 );
 
