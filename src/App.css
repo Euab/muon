@@ -54,3 +54,10 @@
   flex: 1 1 auto;
   align-items: center;
 }
+
+.np_wrapper {
+  display: flex;
+  flex-flow: row;
+  flex: 1 1 auto;
+  width: 0px;
+}

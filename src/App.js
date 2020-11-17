@@ -7,11 +7,17 @@ import PlayerController from './components/PlayerController'
 import Seeker from './components/Seeker'
 import Cover from './components/AlbumCover'
 import TrackDetails from './components/TrackDetails'
+import WindowController from './components/WindowController'
 
 function App() {
   return (
     <div className="app_container">
-      <Navbar className="navbar"></Navbar>
+      <Navbar className="navbar">
+        <Spacer />
+        <Spacer />
+        <Spacer />
+        <WindowController />
+      </Navbar>
       <div className="panel_container">
         <VerticalPanel className="left_panel" />
         <VerticalPanel className="center_panel" />
@@ -20,9 +26,10 @@ function App() {
       <Footer className="footer">
         <Seeker fill="35%" />
         <div className="footer_wrapper">
-          <Cover cover="https://images.genius.com/eb9b06292813479118c915c5420d1690.1000x1000x1.png" />
-          <TrackDetails track="Out on Bail" artist="YG"></TrackDetails>
-          <Spacer />
+          <div className="np_wrapper">
+            <Cover cover="https://images.genius.com/eb9b06292813479118c915c5420d1690.1000x1000x1.png" />
+            <TrackDetails track="Out on Bail" artist="YG"></TrackDetails>
+          </div>
           <PlayerController />
           <Spacer />
         </div>
