@@ -5,6 +5,8 @@ import Footer from './components/Footer'
 import Spacer from './components/Spacer'
 import PlayerController from './components/PlayerController'
 import Seeker from './components/Seeker'
+import Cover from './components/AlbumCover'
+import TrackDetails from './components/TrackDetails'
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
       <Footer className="footer">
         <Seeker fill="35%" />
         <div className="footer_wrapper">
+          <Cover cover="https://images.genius.com/eb9b06292813479118c915c5420d1690.1000x1000x1.png" />
+          <TrackDetails track="Out on Bail" artist="YG"></TrackDetails>
           <Spacer />
           <PlayerController />
           <Spacer />
