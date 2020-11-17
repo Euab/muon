@@ -7,11 +7,17 @@ import PlayerController from './components/PlayerController'
 import Seeker from './components/Seeker'
 import Cover from './components/AlbumCover'
 import TrackDetails from './components/TrackDetails'
+import Searchbar from './components/Searchbar'
 
 function App() {
   return (
     <div className="app_container">
-      <Navbar className="navbar"></Navbar>
+      <Navbar className="navbar">
+        <Searchbar />
+        <Spacer />
+        <Spacer />
+        <Spacer />
+      </Navbar>
       <div className="panel_container">
         <VerticalPanel className="left_panel" />
         <VerticalPanel className="center_panel" />
