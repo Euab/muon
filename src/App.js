@@ -6,6 +6,7 @@ import Spacer from './components/Spacer'
 import PlayerController from './components/PlayerController'
 import Seeker from './components/Seeker'
 import Cover from './components/AlbumCover'
+import TrackDetails from './components/TrackDetails'
 
 function App() {
   return (
