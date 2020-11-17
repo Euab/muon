@@ -6,22 +6,14 @@ import Spacer from './components/Spacer'
 import PlayerController from './components/PlayerController'
 import Seeker from './components/Seeker'
 import Cover from './components/AlbumCover'
-import TrackDetails from './components/TrackDetails'
-import WindowController from './components/WindowController'
 
 function App() {
   return (
     <div className="app_container">
-      <Navbar className="navbar">
-        <Spacer />
-        <Spacer />
-        <Spacer />
-        <WindowController />
-      </Navbar>
+      <Navbar className="navbar"></Navbar>
       <div className="panel_container">
         <VerticalPanel className="left_panel" />
         <VerticalPanel className="center_panel" />
-        <VerticalPanel className="right_panel" />
       </div>
       <Footer className="footer">
         <Seeker fill="35%" />
