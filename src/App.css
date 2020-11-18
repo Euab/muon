@@ -17,6 +17,8 @@
   height: 50px;
   -webkit-app-region: drag;
   z-index: 20;
+  display: flex;
+  flex-flow: row;
 }
 
 .left_panel {
@@ -37,6 +39,8 @@
 }
 
 .footer {
+  flex: 0 0 auto;
+  overflow-y: hidden;
   background-color: #3b4252;
   height: 80px;
   z-index: 20;

@@ -8,6 +8,7 @@ import Seeker from './components/Seeker'
 import Cover from './components/AlbumCover'
 import TrackDetails from './components/TrackDetails'
 import Searchbar from './components/Searchbar'
+import WindowController from './components/WindowController'
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
         <Searchbar />
         <Spacer />
         <Spacer />
-        <Spacer />
+        <WindowController />
       </Navbar>
       <div className="panel_container">
         <VerticalPanel className="left_panel" />
