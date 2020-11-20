@@ -1,6 +1,7 @@
 .side_menu_object_container {
   flex: 0 0 auto;
   margin: 12px;
-  font-family: "Open Sans";
+  font-family: "Roboto";
+  font-weight: bold;
   margin-left: .75rem;
 }
