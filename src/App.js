@@ -1,4 +1,7 @@
 import './App.css'
+
+import FontAwesome from 'react-fontawesome'
+
 import VerticalPanel from './components/VerticalPanel'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
@@ -9,6 +12,7 @@ import Cover from './components/AlbumCover'
 import TrackDetails from './components/TrackDetails'
 import Searchbar from './components/Searchbar'
 import WindowController from './components/WindowController'
+import SideMenu from './components/SideMenu'
 
 function App() {
   return (
@@ -20,7 +24,14 @@ function App() {
         <WindowController />
       </Navbar>
       <div className="panel_container">
-        <VerticalPanel className="left_panel" />
+        <VerticalPanel className="left_panel">
+          <SideMenu>
+            <a href="#"><FontAwesome name="home" /> Home</a>
+            <a href="#"><FontAwesome name="download" /> Downloads</a>
+            <a href="#"><FontAwesome name="music" /> Playlists</a>
+            <a href="#"><FontAwesome name="cogs" /> Settings</a>
+          </SideMenu>
+        </VerticalPanel>
         <VerticalPanel className="center_panel" />
       </div>
       <Footer className="footer">
