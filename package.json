@@ -6,7 +6,8 @@
   "description": "Music player using free sources",
   "author": "Euan Mills",
   "build": {
-    "appId": "muon.player"
+    "appId": "muon.player",
+    "extends": null
   },
   "homepage": "./",
   "dependencies": {
