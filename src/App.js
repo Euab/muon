@@ -13,6 +13,7 @@ import TrackDetails from './components/TrackDetails'
 import Searchbar from './components/Searchbar'
 import WindowController from './components/WindowController'
 import SideMenu from './components/SideMenu'
+import VolumeController from './components/VolumeController'
 
 function App() {
   return (
@@ -43,6 +44,7 @@ function App() {
           </div>
           <PlayerController />
           <Spacer />
+          <VolumeController fill="60%" />
         </div>
       </Footer>
     </div>
