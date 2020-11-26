@@ -44,7 +44,7 @@ function App() {
           </div>
           <PlayerController />
           <Spacer />
-          <VolumeController fill="60%" />
+          <VolumeController />
         </div>
       </Footer>
     </div>

@@ -13,7 +13,7 @@
 }
 
 .navbar {
-  background-color: #3b4252;
+  background-color:#1a1d24;
   height: 50px;
   -webkit-app-region: drag;
   z-index: 20;
@@ -22,7 +22,7 @@
 }
 
 .left_panel {
-  background-color: /*#434c5e*/ #3d4657;
+  background-color: /*#434c5e*/ /*#16171f*/ #14161b;
   width: 300px;
   z-index: 10;
   display: flex;
@@ -30,7 +30,7 @@
 }
 
 .center_panel {
-  background-color: #434c5e;
+  background-color: #0b0c10;
   flex: 1 1 auto;
 }
 
@@ -43,7 +43,7 @@
 .footer {
   flex: 0 0 auto;
   overflow-y: hidden;
-  background-color: #3b4252;
+  background-color: #14161b;
   height: 80px;
   z-index: 20;
   display: flex;

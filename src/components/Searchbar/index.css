@@ -9,8 +9,8 @@
   display: flex;
   align-items: center;
   margin: 12px 0px 12px 12px;
-  color: #ecf0f1;
-  background-color:#5E81AC;
+  color: #1a1d24;
+  background-color:#66fcf1;
   width: 30px;
   height: 30px;
   border-radius: 2px 0px 0px 2px;
@@ -34,7 +34,7 @@
   height: 30px;
   border: none;
   color: #ecf0f1;
-  background-color: #3d4657;
+  background-color: #14161b;
   font-family: "Open Sans";
   font-size: 16px;
   outline: none;

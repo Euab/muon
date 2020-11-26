@@ -11,15 +11,15 @@ class WindowController extends React.Component {
       <div className="window_controller_container">
         <WindowButton
           icon="window-minimize"
-          color="#ebcb8b"
+          color="#14161b"
         />
         <WindowButton
           icon="window-maximize"
-          color="#a3be8c"
+          color="#14161b"
         />
         <WindowButton
           icon="close"
-          color="#bf616a"
+          color="#14161b"
         />
       </div>
     )
